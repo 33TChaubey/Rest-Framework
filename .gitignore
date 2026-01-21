@@ -42,3 +42,6 @@ coverage.xml
 .vscode/
 *.swp
 *.swo
+/firstApp/migrations/__init__.py
+/firstApp/__init__.py
+/MyApi/__init__.py
