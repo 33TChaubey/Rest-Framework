@@ -1,0 +1,44 @@
+# --- Python Artifacts ---
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# --- Virtual Environments ---
+venv/
+.venv/
+env/
+ENV/
+bin/
+lib/
+include/
+
+# --- Django Specific ---
+*.log
+local_settings.py
+db.sqlite3
+db.sqlite3-journal
+media/
+static/
+
+# --- Secret / Configuration Files ---
+.env
+.python-version
+
+# --- Test and Coverage ---
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+.pytest_cache/
+
+# --- IDE Specific (Optional) ---
+.idea/
+.vscode/
+*.swp
+*.swo
